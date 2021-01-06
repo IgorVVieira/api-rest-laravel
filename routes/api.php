@@ -20,11 +20,11 @@ Route::get('dogs', [DogController::class, 'index']);
 
 Route::post('dogs', [DogController::class, 'store']);
 
-Route::get('dog/{id}', [DogController::class, 'show']);
+Route::get('dogs/{id}', [DogController::class, 'show']);
 
-Route::put('dog/{id}', [DogController::class, 'update']);
+Route::put('dogs/{id}', [DogController::class, 'update']);
 
-Route::delete('dog/{id}', [DogController::class, 'destroy']);
+Route::delete('dogs/{id}', [DogController::class, 'destroy']);
 
 
 // Route::middleware('auth:api')->get('/user', function (Request $request) {
