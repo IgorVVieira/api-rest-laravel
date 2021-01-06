@@ -1,0 +1,233 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2021-01-06T16:06:35.140Z",
+    "__export_source": "insomnia.desktop.app:v2020.5.2",
+    "resources": [
+        {
+            "_id": "req_d8dc70cc8bb74adfb945eab142f04df5",
+            "parentId": "fld_96e7aff31553491e8aad6be0304db319",
+            "modified": 1609948052903,
+            "created": 1609771570228,
+            "url": "{{ base_url }}dogs",
+            "name": "Index",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1609781819218,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "fld_96e7aff31553491e8aad6be0304db319",
+            "parentId": "wrk_d354d17ca16e433c96f5505f44fe1533",
+            "modified": 1609771561211,
+            "created": 1609771561211,
+            "name": "Dogs",
+            "description": "",
+            "environment": {},
+            "environmentPropertyOrder": null,
+            "metaSortKey": -1609771561211,
+            "_type": "request_group"
+        },
+        {
+            "_id": "wrk_d354d17ca16e433c96f5505f44fe1533",
+            "parentId": null,
+            "modified": 1609771429833,
+            "created": 1609771429833,
+            "name": "Laravel-api",
+            "description": "",
+            "scope": null,
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_c54dfa5a1b664f1a9101367bfcee8d6d",
+            "parentId": "fld_96e7aff31553491e8aad6be0304db319",
+            "modified": 1609948054670,
+            "created": 1609779660086,
+            "url": "{{ base_url }}dog/5",
+            "name": "Show",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1609781819193,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_b662b2adc2be454781e33aef4b737cd9",
+            "parentId": "fld_96e7aff31553491e8aad6be0304db319",
+            "modified": 1609948056811,
+            "created": 1609771638602,
+            "url": "{{ base_url }}dogs",
+            "name": "Store",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"raca\": \"Vira-lata\",\n\t\"nome\": \"Belinha\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_9f8221ee684541ee86c3b89baca2b700"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1609781819180.5,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_456a99e03be04a988c19e6d5aac044ce",
+            "parentId": "fld_96e7aff31553491e8aad6be0304db319",
+            "modified": 1609782595557,
+            "created": 1609781819168,
+            "url": "{{ base_url }}dog/15",
+            "name": "Update",
+            "description": "",
+            "method": "PUT",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"raca\": \"Pastor Alemão\",\n\t\"nome\": \"Petrus\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_9833e7733c954aa4a3cf736535a9311f"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1609781819168,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_9500b86b41bd46f28e615952c795e81b",
+            "parentId": "fld_96e7aff31553491e8aad6be0304db319",
+            "modified": 1609782069290,
+            "created": 1609782057926,
+            "url": "{{ base_url }}dog/5",
+            "name": "Delete",
+            "description": "",
+            "method": "DELETE",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1609775649344.5,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "env_6d5188d628427959282e484699680d51443798ad",
+            "parentId": "wrk_d354d17ca16e433c96f5505f44fe1533",
+            "modified": 1609778827421,
+            "created": 1609771430323,
+            "name": "Base Environment",
+            "data": {
+                "base_url": "http://127.0.0.1:8000/api/"
+            },
+            "dataPropertyOrder": {
+                "&": [
+                    "base_url"
+                ]
+            },
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1609771430323,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_6d5188d628427959282e484699680d51443798ad",
+            "parentId": "wrk_d354d17ca16e433c96f5505f44fe1533",
+            "modified": 1609771774515,
+            "created": 1609771430338,
+            "name": "Default Jar",
+            "cookies": [
+                {
+                    "key": "XSRF-TOKEN",
+                    "value": "eyJpdiI6Im4xUVd4eVM2bmcwU2RON0U5eVBrSUE9PSIsInZhbHVlIjoienpudkJwSTFjVVBjOFRFRmFaU3d6SFpYd2tpOXZGbVdxdUxKT0dHQUpqczltcTRoUC9HLzJXeTRQSERPR3JCZ0lqdkdaTk55QVV4S2ZQOEordlp2TEoxK2tMVitiSjNiT1luVG10M0trQ1JxOWlOMmhZbWIyWGM1N0VuYy9tRDQiLCJtYWMiOiJiYTRiNDVhNGJkMTNjNTIwNGZiZTMxNDA4ZGJhYWM0OGE2ZDdiY2IyYjg4ZjJjNjViY2QxMGY0YzMwNGI3YzFkIn0%3D",
+                    "expires": "2021-01-04T16:49:34.000Z",
+                    "maxAge": 7200,
+                    "domain": "localhost",
+                    "path": "/",
+                    "extensions": [
+                        "samesite=lax"
+                    ],
+                    "hostOnly": true,
+                    "creation": "2021-01-04T14:46:56.149Z",
+                    "lastAccessed": "2021-01-04T14:49:34.514Z",
+                    "id": "8629364625117155"
+                },
+                {
+                    "key": "laravel_session",
+                    "value": "eyJpdiI6ImdjdE5abUFHVU5GNitRYjQ4akxoMnc9PSIsInZhbHVlIjoiVkpidmdGS05xTGhaZEd0YjFQMnJaZ205ejhLS0Fzd01iWGFzQzRaL0lRVlBaVXVBOEVpRTNxUU9LcXNOSTI3RFY4Q2taM1VFTEs0Q0NtQ054UndnY2ZpMGFCZ3lJN3JwWjRpTFBySDFYUHN6Ykl2L2M3Um5IVnJKbGJTdm54T3UiLCJtYWMiOiJkYmRiZTg2MWNkZTMyNjg1NjExYjc2NjNlMTJkMmQwZGZkZDRkMTc1NzA5OGVmMzYyOTdkNmI2MWFjZWQwOGJlIn0%3D",
+                    "expires": "2021-01-04T16:49:34.000Z",
+                    "maxAge": 7200,
+                    "domain": "localhost",
+                    "path": "/",
+                    "httpOnly": true,
+                    "extensions": [
+                        "samesite=lax"
+                    ],
+                    "hostOnly": true,
+                    "creation": "2021-01-04T14:46:56.151Z",
+                    "lastAccessed": "2021-01-04T14:49:34.514Z",
+                    "id": "2053407982672757"
+                }
+            ],
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "spc_a53439e422e146c4b3991b401ff92076",
+            "parentId": "wrk_d354d17ca16e433c96f5505f44fe1533",
+            "modified": 1609771429881,
+            "created": 1609771429881,
+            "fileName": "Laravel-api",
+            "contents": "",
+            "contentType": "yaml",
+            "_type": "api_spec"
+        }
+    ]
+}
